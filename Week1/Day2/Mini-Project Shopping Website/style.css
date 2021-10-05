@@ -10,6 +10,7 @@ head {font-family: Arial, Helvetica, sans-serif;}
   background-color: #f3f3f3;
 }
 
+
 li {
   float: left;
 }
@@ -29,4 +30,8 @@ li a:hover:not(.active) {
 li a.active {
   color: white;
   background-color: #04AA6D;
+}
+
+.login {
+	left: 20px;
 }

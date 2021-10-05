@@ -1,0 +1,57 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF0000;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+
+}
+
+
+ body {
+  background-image: url('https://www.tribuneoccitanie.com/wp-content/uploads/2021/07/spider-man-iron-suit-scaled.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin:0;
+}
+
+
+h1{
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+	margin-top: 200px;
+}
+p{
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+#logo {
+	width: 30px;
+	float: right;
+	background-color: gray;
+}
+
+.logo-image{
+	
+    height: 16px;
+    border-radius: 50%;
+    margin-top: -6px;
+    position: fixed;
+}

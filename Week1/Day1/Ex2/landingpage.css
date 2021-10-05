@@ -31,3 +31,65 @@ li a {
 }
 
 
+* {
+  font-family: Helvetica;
+
+}
+
+input[type=button]{
+  color:white;
+  background-color: #075DA4;
+  border-radius: 10px;
+}
+
+#head {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  height: 400px;
+  text-align: center;
+  position: relative;
+
+
+}
+
+#head p {
+  font-size: 30px;
+  color:#fff;
+  position: absolute;
+    top: 25%;
+    width: 100%;
+    display: block;
+
+}
+
+#head form {
+  position: absolute;
+    top: 50%;
+    width: 100%;
+    border-radius: 40px;
+}
+
+#down {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #D7DEDB;
+  padding-top: 50px;
+  position: relative;
+  /*flex-direction: center;*/
+
+  
+}
+
+div p {
+  color:grey;
+
+}
+
+h3 {text-align: center;
+}
+
+.box2 {padding-left: 50px;
+padding-right: 50px;}
+
