@@ -1,0 +1,42 @@
+.sectionflexbox {
+    border: 3px solid red; 
+    height: 500px;
+    /*important properties on the parent container*/
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+} 
+.green {
+ align-self: flex-start;
+ background-color: skyblue;
+ flex-direction: row;
+ text-align: center;
+ margin: 10px;
+ width: 100%;
+padding: 50px;
+
+}
+
+.red{
+align-self: flex-start;
+ background-color: skyblue;
+ flex-direction: row;
+ flex-direction: column;
+ text-align: center;
+ margin: 10px;
+ width: 50%;
+padding: 70px;
+}
+.blue{
+
+    align-self: flex-start;
+ background-color: skyblue;
+ flex-direction: row;
+ text-align: center;
+ margin: 10px;
+ width: 100%;
+padding: 50px;
+}
