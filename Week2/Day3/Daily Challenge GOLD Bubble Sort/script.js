@@ -3,7 +3,7 @@
 const numbers = [5, 0, 9, 1, 7, 4, 2, 6, 3, 8];
 let stringnumber = numbers.join("").toString();
 console.log(stringnumber);
-
+ 
 //Bonus part - Bubble sort
 let newnumber = numbers;
 for (let i = 0; i < newnumber.length; i++) {
