@@ -26,5 +26,4 @@ let BelAmi =
 };
 
 
-let btnGet = document.querySelector('button');
-let myTable = document.querySelector('#table');
+let table = document.createElement("table");
