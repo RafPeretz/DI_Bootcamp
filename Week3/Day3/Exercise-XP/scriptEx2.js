@@ -7,7 +7,7 @@ item.addEventListener("dragstart", startDragging);
 
 function startDragging (event) {
 	console.log("start dragging", event.target.id);
-	event.target.classList.add("startDragging");
+	
 	// console.log(event.dataTransfer)
 	// syntax
 	// event.dataTransfer.setData("type of data", id of the elem)
@@ -46,8 +46,6 @@ function dropping(event){
 	// 2. append the element on the drop zone
 	let elemNode = document.getElementById(elementToDrop)
 	event.target.appendChild(elemNode)
-    elemNode.classList.add("newStyle");
-    event.target.style.border = "5px dotted blue";
     
 }
 

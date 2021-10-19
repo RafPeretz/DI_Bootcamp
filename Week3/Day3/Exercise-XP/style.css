@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	outline: 0;
+}
+
+section {
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+	gap : 10px;
+	margin-top:  10px;
+}
+
+.dropzone {
+	width : 200px;
+	height:  200px;
+	border:  2px solid black;
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.draggedItem {
+	width : 150px;
+	height:  150px;
+	padding:  2px;
+	border:  2px solid red;
+	border-radius:  50%;
+	background-color: lightcoral;
+}
+
