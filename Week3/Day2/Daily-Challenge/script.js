@@ -1,5 +1,7 @@
 let button = document.getElementById("lib-button");
 
+
+
 button.addEventListener("click",function(event){
 	event.preventDefault();
 	let noun = document.getElementById("noun").value;
@@ -19,8 +21,9 @@ button.addEventListener("click",function(event){
 		if(storyElement[i] =="")
 		{
 			alert("Please fill all the mandotory" ,storyElement[i])
-		}else {
-			let span = document.getElementById("story");
+		}else 
+		{
+		       let span = document.getElementById("story");
 			// story.appendChild(document.createTextNode(`${storyElement[i]}`));
 			story.textContent+= " "+storyElement[i];
 
@@ -32,4 +35,6 @@ button.addEventListener("click",function(event){
 		}
 	}
 
+
 })
+
