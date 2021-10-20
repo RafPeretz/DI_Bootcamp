@@ -2,8 +2,10 @@
 
 // 1. Retrieve the green box
 let item = document.getElementById("item");
+let Seconditem = document.getElementById("itemSecond");
 
 item.addEventListener("dragstart", startDragging);
+Seconditem.addEventListener("dragstart", startDragging);
 
 function startDragging (event) {
 	console.log("start dragging", event.target.id);
