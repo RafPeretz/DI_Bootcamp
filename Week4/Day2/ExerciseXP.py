@@ -139,7 +139,7 @@ age = ''
 for x in list:
     age = int(input('Hey Please enter youre age'))
     if age>16 and age<21:
-    new_list.append(x)
+        new_list.append(x)
     break
 
     print(new_list)
