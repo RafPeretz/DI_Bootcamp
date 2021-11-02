@@ -1,5 +1,5 @@
 # Exercise 1 : Pets
-class Pets():
+class Pets:
     def __init__(self, animals):
         self.animals = animals
 
@@ -8,7 +8,7 @@ class Pets():
             print(animal.walk())
 
 
-class Cat():
+class Cat:
     is_lazy = True
 
     def __init__(self, name, age):
