@@ -54,7 +54,7 @@
 -- VALUES('Jerry Weintraub',(SELECT movie_id from movies WHERE movie_title='Oceans Eleven'));
 
 
--- SELECT * FROM producers;
+-- S	
 
 -- SELECT movies.movie_title,movies.movie_story, producers.producer_name
 -- FROM movies
