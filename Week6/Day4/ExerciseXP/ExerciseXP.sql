@@ -62,8 +62,8 @@
 
 -- select job_title as "Job available" from jobs,employees where jobs.job_id = employees.job_id
 
-select * from employees where last_name = 'JONES' or last_name = 'BLAKE' or last_name = 'SCOTT'
-or last_name = 'King' or last_name = 'FORD'
+-- select * from employees where last_name = 'JONES' or last_name = 'BLAKE' or last_name = 'SCOTT'
+-- or last_name = 'King' or last_name = 'FORD'
 
 
 
